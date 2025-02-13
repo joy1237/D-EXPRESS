@@ -1,0 +1,827 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.headerhero {
+  background-image: url(Images/background\ image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  gap: 2rem;
+}
+
+nav li {
+  color: white;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21.86px;
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.btn button {
+  background: #1bc768;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21.86px;
+  border: none;
+  border-radius: 50px;
+  padding: 0.5rem 1rem;
+  color: white;
+  cursor: pointer;
+}
+
+.btn button:hover {
+  background-color: white;
+  color: #1bc768;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+
+.textside {
+  width: 50%;
+}
+
+.textside h2 {
+  font-family: Lato;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 65.57px;
+  color: white;
+}
+
+.textside p {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.59px;
+  color: white;
+  width: 69%;
+  padding: 2rem 0;
+}
+
+.heroinput input {
+  width: 50%;
+  padding: 0.5rem;
+  border-radius: 50px 0 0 50px;
+  border: 1px solid white;
+}
+
+.imageside img {
+  width: 100%;
+}
+
+.herobtn {
+  width: 100%;
+}
+
+.heroinput button {
+  width: 20%;
+  padding: 0.5rem;
+  background-color: #1bc768;
+  color: white;
+  border: 1px solid #1bc768;
+  margin-left: -5px;
+  cursor: pointer;
+  border-radius: 0 50px 50px 0;
+  margin-top: 2rem;
+}
+
+.herobtn button {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.59px;
+  background: none;
+  border: 1px solid white;
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+  color: white;
+  margin-right: 1rem;
+  border-radius: 50px;
+}
+
+.herobtn button:hover {
+  background: white;
+  color: #043caa;
+}
+
+.affiliations {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.topaffiliate h2 {
+  font-family: Lato;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 49.18px;
+  color: #043caa;
+}
+
+.affiliateLines {
+  display: flex;
+  justify-content: center;
+  /* padding-top: 1rem; */
+  width: 50%;
+  margin: auto;
+}
+
+.line1 {
+  width: 10%;
+  height: 5px;
+  background-color: #043caa;
+  border: 1px solid #043caa;
+  border-radius: 50px 0 0 50px;
+}
+.line2 {
+  width: 10%;
+  height: 5px;
+  background-color: #1bc768;
+  border: 1px solid #1bc768;
+  border-radius: 0 50px 50px 0;
+}
+
+.affiliate {
+  margin-top: 3rem;
+}
+
+.affiliate img {
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+.keybenefits {
+  width: 80%;
+  margin: auto;
+  margin-top: 5rem;
+}
+
+.keybenefits h2 {
+  font-family: Lato;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 49.18px;
+  color: #043caa;
+  text-align: center;
+}
+
+.keybenefitLines {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  margin: auto;
+}
+.medicine {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.medicinetext h4 {
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 32.78px;
+  color: #043caa;
+  padding-bottom: 1.5rem;
+  width: 60%;
+}
+
+.medicinetext ul {
+  list-style: image url(./Images/dot.png);
+  list-style-position: inside;
+}
+
+.medicinetext li {
+  padding-bottom: 1rem;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.59px;
+  color: black;
+}
+
+.medicinetext button {
+  background: none;
+  color: #1bc768;
+  border: 1px solid;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24.59px;
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.doorstep {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.doorsteptext h4 {
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 32.78px;
+  color: #043caa;
+  padding-bottom: 1.5rem;
+  width: 60%;
+}
+
+.doorsteptext ul {
+  list-style: image url(./Images/dot.png);
+  list-style-position: inside;
+}
+
+.doorsteptext li {
+  padding-bottom: 1rem;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.59px;
+  color: black;
+}
+
+.doorsteptext button {
+  background: none;
+  color: #1bc768;
+  border: 1px solid;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24.59px;
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+.profiletext h4 {
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 32.78px;
+  color: #043caa;
+  padding-bottom: 1.5rem;
+  width: 60%;
+}
+
+.profiletext ul {
+  list-style: image url(./Images/dot.png);
+  list-style-position: inside;
+}
+
+.profiletext li {
+  padding-bottom: 1rem;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.59px;
+  color: black;
+}
+
+.profiletext button {
+  background: none;
+  color: #1bc768;
+  border: 1px solid;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24.59px;
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.client {
+  display: flex;
+  align-items: center;
+  width: 85%;
+  justify-content: space-between;
+}
+
+.clientImage {
+  width: 60%;
+}
+
+.clientImage img {
+  width: 100%;
+}
+.medicineimage img {
+  width: 100%;
+}
+.doorstepimg img {
+  width: 100%;
+}
+.profileimg img {
+  width: 100%;
+}
+
+.clientText {
+  width: 25%;
+}
+
+.clientText p {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32.4px;
+  color: #7a7a7a;
+}
+
+.clientText h5 {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32.4px;
+  color: #043caa;
+}
+
+footer {
+  background-color: #043caa;
+  padding: 4rem 0 1rem;
+}
+
+.footerWrap{
+  width: 80%;
+  margin: auto;
+}
+
+.newsletter {
+  display: flex;
+  margin-bottom: 8rem;
+  gap: 15rem;
+}
+
+.signUp{
+  width: 30%;
+}
+
+.email{
+  width: 35%;
+}
+
+.signUp h3 {
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 32.78px;
+  color: #ffffff;
+  padding-bottom: 1rem;
+}
+
+.signUp p {
+  font-family: Lato;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.59px;
+}
+
+.email label {
+  font-family: Lato;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.59px;
+}
+
+.email input {
+  width: 70%;
+  padding: 1rem 0.5rem;
+  border-radius: 50px 0 0 50px;
+  border: 1px solid white;
+}
+
+.email button {
+  width: 30%;
+  padding: 1rem 0.5rem;
+  background-color: #1bc768;
+  color: white;
+  border: 2px solid #1bc768;
+  margin-left: -5px;
+  cursor: pointer;
+  border-radius: 0 50px 50px 0;
+  margin-top: 1rem;
+}
+
+.footLinks {
+  display: flex;
+  gap: 15rem;
+}
+
+.footRight {
+  width: 50%;
+  display: flex;
+  gap: 6rem;
+}
+
+.footLeft p {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.59px;
+  color: #ffffff;
+  padding-top: 1rem;
+}
+
+.quickLinks h5 {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 24.59px;
+  color: #ffffff;
+  padding-bottom: 1.5rem;
+}
+
+.quickLinks p {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.59px;
+  color: #ffffff;
+  padding-bottom: 1rem;
+}
+
+.footLeft{
+  width: 20%;
+}
+
+.copyright{
+  text-align: center;
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24.59px;
+  padding-top: 4rem;
+}
+.doorstepimg img{
+  width: 80%;
+    }
+
+
+@media (max-width: 1024px){
+  .textside {
+    width: 55%;
+  }
+
+  .textside p {
+    width: 95%;
+  }
+
+  .heroinput input {
+    width: 70%;
+  }
+  
+  .clientImage {
+    width: 50%;
+  }
+  
+  .clientText {
+    width: 40%;
+  }
+
+  .clientText h2 {
+    font-size: 33px;
+  }
+
+  .signUp{
+    width: 53%;
+  }
+  
+  .email{
+    width: 40%;
+  }
+  
+  .newsletter {
+    gap: 10rem;
+  }
+
+  .footLinks {
+    gap: 8rem;
+  }
+
+  .footRight {
+    width: 70%;
+    gap: 4rem;
+  }
+
+  .footLeft{
+    width: 30%;
+  }
+
+}
+
+@media (max-width: 768px){
+  .textside h2 {
+    font-size: 38px;
+    line-height: 45.57px;
+  }
+  
+  .textside p {
+    font-size: 16px;
+    width: 95%;
+  }
+  
+  .heroinput input {
+    width: 60%;
+  }
+
+  .heroinput button {
+    width: 25%;
+  }
+
+  .textside{
+    width: 65%;
+  }
+  .imageside{
+    width: 40%;
+  }
+
+  .herobtn button {
+    font-size: 16px;
+    padding: 0.5rem 1.5rem;
+    margin-right: 0.5rem;
+  }
+
+  .medicinetext li{
+    font-size: 13px;
+  }
+
+  .doorsteptext h4{
+    width: 80%;
+  }
+  .doorsteptext li{
+    font-size: 13px;
+  }
+  .profiletext h4{
+    width: 80%;
+  }
+  .profiletext li{
+    font-size: 13px;
+  }
+  
+.clientText h2 {
+  font-size: 25px;
+}
+.clientText p {
+  font-size: 13px;
+}
+.clientText h5 {
+  font-size: 13px;
+}
+
+.signUp{
+  width: 75%;
+}
+.signUp p{
+  font-size: 14px;
+}
+.newsletter{
+  gap: 5rem;
+}
+.email{
+  width: 60%;
+}
+
+.signUp h3 {
+  font-size: 24px;
+}
+
+.signUp p {
+  font-size: 14px;
+}
+
+.email label {
+  font-size: 14px;
+}
+
+
+.footLinks {
+  gap: 5rem;
+}
+
+.footRight {
+  width: 70%;
+  gap: 2rem;
+}
+
+.footLeft{
+width: 30%;
+}
+.quickLinks h5 {
+  font-size: 14px;
+}
+
+.quickLinks p {
+  font-size: 14px;
+}
+
+.footLeft p {
+  font-size: 14px;
+}
+.copyright{
+  font-size: 14px;
+}
+}
+
+@media (max-width: 426px){
+  nav{
+    display: none;
+  }
+
+  .btn{
+    display: none;
+  }
+
+  .hero{
+    flex-direction: column-reverse;
+  }
+
+  .textside{
+    width: 100%;
+  }
+  .imageside{
+    width: 100%;
+    margin-top: 1rem;
+  }
+  .heroinput input{
+    width: 70%;
+  }
+  .headerhero{
+    padding-bottom: 3rem;
+  }
+  .affiliate{
+    width: 50%;
+    margin: auto;
+  }
+  .affiliate img {
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 2rem;
+  }
+  .medicine{
+    flex-direction: column;
+  }
+  .medicinetext{
+    margin-top: 2rem;
+    width: 100%;
+  }
+  .medicineimage{
+    width: 100%;
+  }
+  .medicinetext h4{
+    width: 60%;
+  }
+  .medicinetext li{
+    font-size: 17px;
+  }
+  .doorstep{
+    flex-direction: column-reverse;
+  }
+  .doorsteptext{
+    margin-top: 2rem;
+    width: 100%;
+  }
+  .doorstepimg{
+    width: 100%;
+  }
+  .doorsteptext h4{
+    width: 60%;
+  }
+  .doorsteptext li{
+    font-size: 17px;
+  }
+  .profile{
+    flex-direction: column;
+  }
+  .profiletext{
+    margin-top: 2rem;
+    width: 100%;
+  }
+  .profileimg{
+    width: 100%;
+  }
+  .profileptext h4{
+    width: 70%;
+  }
+  .profiletext li{
+    font-size: 17px;
+  }
+
+  .client{
+    flex-direction: column;
+  }
+
+  .clientImage{
+    width: 100%;
+  }
+
+  .clientText{
+    width: 80%;
+    margin: auto;
+  }
+  .clientText p{
+    font-size: 18px;
+  }
+  .clientText h5{
+    font-size: 18px;
+  }
+
+  footer{
+    margin-top: 2rem;
+  }
+
+  .newsletter{
+    flex-direction: column;
+  }
+
+  .signUp{
+    width: 100%;
+  }
+
+  .email{
+    width: 100%;
+  }
+
+  .footLinks{
+    flex-direction: column;
+  }
+
+  .footLeft{
+    width: 100%;
+  }
+
+  
+  .footRight{
+    width: 100%;
+    display: block;
+  }
+
+  .signUp h3 {
+    font-size: 24px;
+  }
+  
+  .signUp p {
+    font-size: 18px;
+  }
+  
+  .email label {
+    font-size: 18px;
+  }
+
+  .footLeft p{
+    font-size: 18px;
+  }
+
+  .quickLinks h5{
+    font-size: 18px;
+  }
+  
+  .quickLinks p{
+    font-size: 18px;
+  }
+
+  
+}
